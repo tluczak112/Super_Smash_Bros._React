@@ -2,7 +2,7 @@
   "name": "Super_Smash_Bros._React",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://tluczak112.github.io/Super_Smash_Bros._React",
+  "homepage": "http://tluczak112.github.io/Super_Smash_Bros._React",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -12,6 +12,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }

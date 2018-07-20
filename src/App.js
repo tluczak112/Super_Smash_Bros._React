@@ -3,6 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import ImageCard from "./components/ImageCard";
 import characters from "./characters.json";
+import "./App.css";
 
 
 class App extends Component {
